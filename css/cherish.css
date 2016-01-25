@@ -1,0 +1,57 @@
+/* Global Styles */
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    padding-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+/*Classes*/
+
+.page-header{text-align:center;}
+.profile_pic{margin-left:39px;}
+.panel-heading > h4{text-align: center;}
+
+
+
+
+/*Elements*/
+#mission-statement {margin-left:auto;margin-right:auto; max-width:600px;}
+#mission-statement > .col-md-4 {text-align: center}
+#CherishJumbo {height:500px;}
+
+.img-portfolio {
+    margin-bottom: 30px;
+}
+
+.img-hover:hover {
+    opacity: 0.8;
+}
+
+
+/* Footer Styles */
+
+footer {
+    margin: 50px 0;
+}
+
+/* Responsive Styles */
+
+@media(max-width:991px) {
+    .customer-img,
+    .img-related {
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width:767px) {
+    .img-portfolio {
+        margin-bottom: 15px;
+    }
+
+    header.carousel .carousel {
+        height: 70%;
+    }
+}
